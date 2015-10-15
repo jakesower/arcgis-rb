@@ -10,7 +10,7 @@ It is intended to be a replacement for the [ArcGIS Gem](https://github.com/ajtur
 
 Just install using Rubygems:
 
-`gem install arcgis-rb`
+`gem install arcgis-ruby`
 
 ## Instructions
 
@@ -51,15 +51,9 @@ connection.item(publish["services"].first["serviceItemId"]).delete
 
 ### Testing
 
-arcgis-rb uses RSpec for tests. First copy @config.yml.example@ to @config.yml@ and modify the username and password. Then from the command line run:
+arcgis-ruby uses RSpec for tests. First copy @config.yml.example@ to @config.yml@ and modify the username and password. Then from the command line run:
 
     $ rspec
-
-If your arcgis online user is a public user, i.e. not allowed to create groups or publish items, then run:
-
-    $ rspec --tag ~@privileged 
-
-This will skip tests that require publisher access.
 
 
 ## Requirements
