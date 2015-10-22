@@ -3,12 +3,12 @@
 
 Gem::Specification.new do |s|
   s.name = "arcgis-ruby"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Jake Sower"]
-  s.date = "2015-10-15"
+  s.date = Time.now.strftime("%Y-%m-%d")
   s.email = "jsower@esri.com"
   s.summary = "A simple wrapper for ArcGIS Online sharing API"
   s.license = 'apache'
