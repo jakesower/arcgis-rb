@@ -14,6 +14,8 @@ Just install using Rubygems:
 
 ## Instructions
 
+The @lib/arcgis/routes.rb@ file has a list of available actions that the gem supports. The example below should make it clear how this routes file translates into code.
+
 ```ruby
 # Create a client
 connection = Arcgis::Connection.new(host: "http://www.arcgis.com/sharing/rest/")

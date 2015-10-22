@@ -1,6 +1,3 @@
-# Provides pseudo-routes from local methods to AGOL URLs. These get loaded into
-# AGOL model objects via Agol::Model::load_routes.
-
 module Arcgis
   module Routes
     ROUTES = {

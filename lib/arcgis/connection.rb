@@ -6,9 +6,9 @@ class Arcgis::Connection
   #
   # Take in username/password upon initialization
   #
-  def initialize(host:, username: nil, password: nil)
+  def initialize(host:, username: nil, password: nil, token: nil)
     @host = host.sub(/\/$/,'')
-    @token, @token_expires = nil, nil
+    @token, @token_expires = token, nil
     @username, @password = username, password
 
     if username && password
