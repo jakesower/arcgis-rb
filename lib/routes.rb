@@ -37,7 +37,8 @@ module Arcgis
         share:               "POST /content/items/:id/share",
         unshare:             "POST /content/items/:id/unshare",
         delete:              "POST /content/users/:username/items/:id/delete",
-        create:              "POST /content/users/:username/addItem"
+        create:              "POST /content/users/:username/addItem",
+        update:              "POST /content/users/:username/items/:id/update"
       },
 
       comment: {
